@@ -1,4 +1,4 @@
-\context Staff = "mezzo" <<
+\context Staff = "mezzo" \with { \consists Ambitus_engraver } <<
 	\set Staff.instrumentName = "Mezzosoprano"
 	\set Staff.shortInstrumentName = "M."
 	\set Staff.midiInstrument = "Voice Oohs"
