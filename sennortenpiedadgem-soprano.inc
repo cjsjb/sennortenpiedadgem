@@ -24,7 +24,7 @@
 %% 10
 		f' 2 r4 e' 8 f'  |
 		g' 4 ( b' 8 ) g' ~ g' f' e' f' ~  |
-		f' 2 r  |
+		f' 1  |
 		r4 a' 8 a' a' 4 e' 8 g' ( ~ 
 		% warning: overlong bar truncated here |
 		g' 2. f' 4  |
