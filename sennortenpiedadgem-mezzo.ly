@@ -4,7 +4,7 @@
 #(ly:set-option 'point-and-click #f)
 \header {
 	title = "Señor, ten piedad"
-	subtitle = "(G.E.M.)"
+	subtitle = "G.E.M."
 	tagline = "Coro Juvenil San Juan Bosco"
 	instrument = "Mezzosoprano"
 }
