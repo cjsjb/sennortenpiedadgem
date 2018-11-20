@@ -33,8 +33,12 @@ globalTempo = {
 			\include "sennortenpiedadgem-mezzo.inc"
 			%\include "sennortenpiedadgem-tenor.inc"
 		>>
-		%\include "sennortenpiedadgem-violin.inc"
+		\include "sennortenpiedadgem-violin.inc"
 	>>
 
-	\layout { }
+	\layout {
+		\context {
+			\RemoveEmptyStaffContext
+		}
+	}
 }
