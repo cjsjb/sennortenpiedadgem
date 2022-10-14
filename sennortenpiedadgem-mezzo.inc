@@ -48,7 +48,7 @@
 		\bar "|."
 	}
 
-	\lyricsto "voz-mezzo" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-mezzo" {
 		% sennor...
 		Se -- ñor, Se -- ñor,
 		Se -- ñor, ten pie -- dad, __
