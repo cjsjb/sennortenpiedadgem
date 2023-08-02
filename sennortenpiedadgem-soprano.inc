@@ -13,6 +13,7 @@
 
 		\time 4/4
 		\clef "treble"
+		\key c \major
 
 		R1*4  |
 %% 5
@@ -25,8 +26,7 @@
 		f' 2 r4 e' 8 f'  |
 		g' 4 ( b' 8 ) g' ~ g' f' e' f' ~  |
 		f' 1  |
-		r4 a' 8 a' a' 4 e' 8 g' ( ~ 
-		% warning: overlong bar truncated here |
+		r4 a' 8 a' a' 4 e' 8 g' ( ~  |
 		g' 2. f' 4  |
 %% 15
 		e' 8 ) r a' a' a' 4 e' 8 g' ~  |
