@@ -34,6 +34,7 @@ globalTempo = {
 			\include "sennortenpiedadgem-tenor.inc"
 		>>
 		\include "sennortenpiedadgem-violin.inc"
+		\include "sennortenpiedadgem-cello.inc"
 	>>
 
 	\layout {
