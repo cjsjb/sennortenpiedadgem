@@ -28,7 +28,7 @@ globalTempo = {
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "sennortenpiedadgem-acordes.inc"
-		\include "sennortenpiedadgem-guia.inc"
+		\include "sennortenpiedadgem-soprano.inc"
 		\include "sennortenpiedadgem-violin.inc"
 	>>
 

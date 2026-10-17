@@ -1,16 +1,17 @@
 \context Staff = "guia" \with {
 	\consists Ambitus_engraver
-	fontSize = #-3
-	\override StaffSymbol #'staff-space = #(magstep -3)
+	%fontSize = #-3
+	%\override StaffSymbol #'staff-space = #(magstep -3)
 } <<
 	\set Staff.instrumentName = "Voz"
-	\set Staff.shortInstrumentName = ""
+	\set Staff.shortInstrumentName = ##f
+	\set Staff.midiInstrument = "Voice Oohs"
 	\set Score.skipBars = ##t
 	\set Staff.printKeyCancellation = ##f
 	\new Voice \global
 	\new Voice \globalTempo
 
-	\context Voice = "guia" {
+	\context Voice = "voz-guia" {
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
 
@@ -18,9 +19,12 @@
 		\clef "treble"
 		\key c \major
 
-		R1*4  |
+		r2 r16 a' b' c'' d'' e'' f'' g''  |
+		a'' 16 g'' f'' g'' f'' e'' f'' e'' d'' e'' d'' c'' d'' c'' b' a'  |
+		c'' 16 b' a' g' ~ g' 8 c'' 16 b' a' g' 8. g' 16 a' c'' e''  |
+		f'' 16 e'' c'' a' ~ a' e'' f'' e'' c'' a' 8. ~ a' 4  |
 %% 5
-		r4 g' 8 g' ~ g' 2  |
+		g' 4 g' 8 g' ~ g' 2  |
 		r4 f' 8 f' ~ f' 2  |
 		r4 g' 8 g' ~ g' f' e' f' ~  |
 		f' 2 r4 e' 8 f'  |
@@ -52,7 +56,12 @@
 		\bar "|."
 	}
 
-	\new Lyrics \lyricsto "guia" {
+	\new Lyrics \lyricsto "voz-guia" {
+		_ _ _ _ _ _ _ _ _ _
+		_ _ _ _ _ _ _ _ _ _
+		_ _ _ _ _ _ _ _ _ _
+		_ _ _ _ _ _ _ _ _ _
+		_ _ _ _ _
 		% sennor...
 		Se -- ñor, Se -- ñor,
 		Se -- ñor, ten pie -- dad, __
