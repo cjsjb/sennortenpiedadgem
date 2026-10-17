@@ -47,6 +47,7 @@
 		f' 2 r4 e' 8 f'  |
 		g' 4 ( b' 8 ) g' ~ g' 2  |
 		R1
+		\bar "|."
 	}
 
 	\new Lyrics \lyricsto "voz-soprano" {

@@ -47,6 +47,7 @@
 		d' 2 r4 c' 8 d'  |
 		e' 4 ( g' 8 ) e' ~ e' 2  |
 		R1
+		\bar "|."
 	}
 
 	\new Lyrics \lyricsto "voz-mezzo" {
