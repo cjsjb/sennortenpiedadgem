@@ -14,7 +14,6 @@
 		\time 4/4
 		\clef "treble"
 		\key c \major
-
 		R1*4  |
 %% 5
 		r4 g' 8 g' ~ g' 2  |
@@ -45,8 +44,7 @@
 		g' 4 ( b' 8 ) g' ~ g' f' e' f' ~  |
 		f' 2 r4 e' 8 f'  |
 		g' 4 ( b' 8 ) g' ~ g' 2  |
-		R1  |
-		\bar "|."
+		R1
 	}
 
 	\new Lyrics \lyricsto "voz-soprano" {

@@ -14,7 +14,6 @@
 		\time 4/4
 		\clef "treble_8"
 		\key c \major
-
 		R1*4  |
 %% 5
 		r4 e 8 e ~ e 2  |
@@ -26,8 +25,7 @@
 		d 2 r4 c 8 d  |
 		e 4 ( g 8 ) e ~ e d c d ~  |
 		d 1  |
-		r4 a 8 a a 4 e 8 g ( ~
-		% warning: overlong bar truncated here |
+		r4 a 8 a a 4 e 8 g ( ~  |
 		g 2. f 4  |
 %% 15
 		e 4 ) a 8 a a 4 e 8 g ~  |
@@ -46,8 +44,7 @@
 		e 4 ( g 8 ) e ~ e d c d ~  |
 		d 2 r4 c 8 d  |
 		e 4 ( g 8 ) e ~ e 2  |
-		R1  |
-		\bar "|."
+		R1
 	}
 
 	\new Lyrics \lyricsto "voz-tenor" {

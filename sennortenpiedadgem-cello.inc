@@ -12,7 +12,6 @@
 
 		\clef "bass"
 		\key c \major
-
 		c 1  |
 		d 1  |
 		c 1  |
@@ -46,7 +45,6 @@
 		c 4. c 8 ~ c 2  |
 		d 4. f e 4  |
 		c 4. c 8 ~ c 2 ~  |
-		c 1  |
+		c 1
 	}
-
 >>

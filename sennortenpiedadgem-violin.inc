@@ -12,7 +12,6 @@
 
 		\clef "treble"
 		\key c \major
-
 		r2 r16 a' b' c'' d'' e'' f'' g''  |
 		a'' 16 g'' f'' g'' f'' e'' f'' e'' d'' e'' d'' c'' d'' c'' b' a'  |
 		c'' 16 b' a' g' ~ g' 8 c'' 16 b' a' g' 8. g' 16 a' c'' e''  |
@@ -46,7 +45,6 @@
 		r8 g'' g'' g'' 2 r8  |
 		r8 f'' e'' f'' 2 r8  |
 		g'' 4. g'' 8 ~ g'' 2 ~  |
-		g'' 1  |
+		g'' 1
 	}
-
 >>

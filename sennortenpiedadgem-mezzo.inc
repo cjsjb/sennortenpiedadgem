@@ -13,7 +13,7 @@
 
 		\time 4/4
 		\clef "treble"
-
+		\key c \major
 		R1*4  |
 %% 5
 		r4 e' 8 e' ~ e' 2  |
@@ -44,8 +44,7 @@
 		e' 4 ( g' 8 ) e' ~ e' d' c' d' ~  |
 		d' 2 r4 c' 8 d'  |
 		e' 4 ( g' 8 ) e' ~ e' 2  |
-		R1  |
-		\bar "|."
+		R1
 	}
 
 	\new Lyrics \lyricsto "voz-mezzo" {
